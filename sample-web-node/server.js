@@ -22,4 +22,5 @@ var handleRequest = function(req, res) {
 };
 
 var www = http.createServer(handleRequest);
+console.log("Started server");
 www.listen(8080);
